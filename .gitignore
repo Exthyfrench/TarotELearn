@@ -1,0 +1,3 @@
+# Icon generator helper files (not needed in production)
+icons/generate.html
+icons/generate_icons.py
