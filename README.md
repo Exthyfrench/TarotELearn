@@ -103,22 +103,87 @@ GitHub Pages will automatically update within a minute or two.
 
 ---
 
-## 📱 Install on iPhone (PWA)
+## 📱 Install on Your Phone
 
-Once the app is hosted on GitHub Pages:
+This app is a **Progressive Web App (PWA)**, which means you can install it on your phone like a real app — no App Store needed. It works offline and opens fullscreen without a browser bar.
 
-1. Open **Safari** on your iPhone
-2. Go to `https://YOUR_USERNAME.github.io/TarotELearn/`
-3. Tap the **Share button** (square with arrow pointing up)
-4. Scroll down and tap **"Add to Home Screen"**
-5. Name it "Tarot E-Learn" and tap **Add**
+### 🍎 Install on iPhone (iOS)
 
-The app now appears as an icon on your home screen. It opens fullscreen (no browser bar) and works offline.
+> ⚠️ **You MUST use Safari.** Chrome and other browsers on iOS do not support "Add to Home Screen."
 
-### Install on Android:
-1. Open **Chrome** on your Android phone
-2. Go to the URL
-3. Tap the **three-dot menu** → **"Add to Home screen"** or **"Install app"**
+**Step 1 — Open Safari**
+- Find the **Safari** app on your iPhone (the blue compass icon)
+- Tap it to open
+
+**Step 2 — Go to the app URL**
+- Tap the **address bar** at the top (or bottom, depending on your Safari layout)
+- Type in: `https://Exthyfrench.github.io/TarotELearn/`
+- Tap **Go** on your keyboard
+- Wait for the app to fully load — you should see the dark gothic home page with "Master the Tarot"
+
+**Step 3 — Tap the Share button**
+- Look for the **Share icon** — it's a square with an upward arrow (⬆️)
+  - On **newer iPhones**: it's at the **bottom center** of the screen
+  - On **older iPhones**: it's at the **top** of the screen
+- Tap it to open the share menu
+
+**Step 4 — Find "Add to Home Screen"**
+- A menu will slide up from the bottom
+- **Scroll down** in that menu — "Add to Home Screen" is NOT in the top row of icons
+- It's in the list below, usually with a **➕** icon next to it
+- Tap **"Add to Home Screen"**
+
+**Step 5 — Name it and confirm**
+- You'll see a preview with the app name — it should say **"Tarot E-Learn"**
+- You can edit the name if you want, or leave it as-is
+- Tap **Add** in the top-right corner
+
+**Step 6 — Done! 🎉**
+- The app icon now appears on your home screen
+- Tap it to open — it launches **fullscreen** with no Safari browser bar
+- It works **offline** — all 78 cards are cached on your device
+- Your learned progress saves automatically
+
+> 💡 **Tip:** If you don't see "Add to Home Screen" in the share menu, scroll down further. Apple sometimes hides it. You can also tap **"Edit Actions"** at the bottom of the share menu and make sure "Add to Home Screen" is enabled.
+
+---
+
+### 🤖 Install on Android
+
+**Step 1 — Open Chrome**
+- Open the **Google Chrome** browser on your Android phone
+
+**Step 2 — Go to the app URL**
+- Navigate to: `https://Exthyfrench.github.io/TarotELearn/`
+- Wait for it to fully load
+
+**Step 3 — Install the app**
+- Chrome may show a banner at the bottom saying **"Add Tarot E-Learn to Home screen"** — tap it!
+- If no banner appears:
+  - Tap the **three-dot menu** (⋮) in the top-right corner
+  - Tap **"Add to Home screen"** or **"Install app"**
+  - Tap **Install** or **Add**
+
+**Step 4 — Done! 🎉**
+- The app icon appears on your home screen and in your app drawer
+- Opens fullscreen, works offline, saves your progress
+
+---
+
+### 🖥️ Install on Desktop (Windows / Mac)
+
+You can also install it as a desktop app:
+
+**In Chrome:**
+1. Visit `https://Exthyfrench.github.io/TarotELearn/`
+2. Click the **install icon** (⊕) in the address bar, or go to **⋮ menu → "Install Tarot E-Learn"**
+3. Click **Install**
+4. It now opens as its own window, separate from your browser
+
+**In Edge:**
+1. Visit the URL
+2. Click **⋯ menu → Apps → Install this site as an app**
+3. Click **Install**
 
 ---
 
