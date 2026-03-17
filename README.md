@@ -12,18 +12,26 @@ A sleek, gothic-themed web application for learning all 78 tarot cards — their
 
 ```
 TarotELearn/
-├── index.html    ← Main HTML page (open this to run the app)
-├── styles.css    ← All styling — gothic dark theme, animations, responsive layout
-├── data.js       ← Complete database of all 78 tarot cards with verified meanings
-├── app.js        ← Application logic — navigation, flashcards, quiz, match game
-└── README.md     ← This file
+├── index.html         ← Main HTML page (open this to run the app)
+├── styles.css         ← All styling — gothic dark theme, animations, responsive layout
+├── data.js            ← Complete database of all 78 tarot cards with verified meanings
+├── app.js             ← Application logic — navigation, flashcards, quiz, match game
+├── manifest.json      ← PWA manifest (enables "Add to Home Screen" on mobile)
+├── service-worker.js  ← Caches files for offline use
+├── icons/
+│   ├── icon.svg       ← App icon (vector)
+│   ├── icon-192.png   ← App icon 192x192
+│   └── icon-512.png   ← App icon 512x512
+└── README.md          ← This file
 ```
 
 **No frameworks. No dependencies. No build step.** Just open `index.html` and go.
 
+This is also a **Progressive Web App (PWA)** — installable on your phone as a home screen app with offline support.
+
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run (Local)
 
 ### Option 1: Just Open the File
 Double-click `index.html` in your file explorer. It opens directly in your browser.
@@ -46,6 +54,71 @@ If you have Node.js installed:
 npx serve
 ```
 Then open the URL it provides (usually **http://localhost:3000**).
+
+---
+
+## 🌐 Deploy to GitHub Pages (Free Hosting)
+
+This gets your app online so you can access it from your phone or share it with anyone.
+
+### First-time setup:
+
+1. **Create a GitHub account** at [github.com](https://github.com) (if you don't have one)
+
+2. **Create a new repository** on GitHub:
+   - Click the **+** button → **New repository**
+   - Name it `TarotELearn`
+   - Set it to **Public**
+   - Do **NOT** check "Add a README" (you already have one)
+   - Click **Create repository**
+
+3. **Push your code** — run these commands in your terminal (replace `YOUR_USERNAME` with your GitHub username):
+   ```bash
+   cd C:/Devl/TarotELearn
+   git remote add origin https://github.com/YOUR_USERNAME/TarotELearn.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+4. **Enable GitHub Pages:**
+   - Go to your repository on GitHub
+   - Click **Settings** → **Pages** (in the left sidebar)
+   - Under "Source", select **Deploy from a branch**
+   - Branch: **main** / **/ (root)**
+   - Click **Save**
+
+5. **Wait 1-2 minutes**, then visit:
+   ```
+   https://YOUR_USERNAME.github.io/TarotELearn/
+   ```
+
+### Updating the site:
+After making changes locally, push them to GitHub:
+```bash
+git add -A
+git commit -m "describe your changes"
+git push
+```
+GitHub Pages will automatically update within a minute or two.
+
+---
+
+## 📱 Install on iPhone (PWA)
+
+Once the app is hosted on GitHub Pages:
+
+1. Open **Safari** on your iPhone
+2. Go to `https://YOUR_USERNAME.github.io/TarotELearn/`
+3. Tap the **Share button** (square with arrow pointing up)
+4. Scroll down and tap **"Add to Home Screen"**
+5. Name it "Tarot E-Learn" and tap **Add**
+
+The app now appears as an icon on your home screen. It opens fullscreen (no browser bar) and works offline.
+
+### Install on Android:
+1. Open **Chrome** on your Android phone
+2. Go to the URL
+3. Tap the **three-dot menu** → **"Add to Home screen"** or **"Install app"**
 
 ---
 
